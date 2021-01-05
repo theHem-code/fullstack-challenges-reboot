@@ -1,5 +1,3 @@
-require_relative "vending_machine"
-
 def display(vending_machine)
   return "---> Amount: #{vending_machine.user_balance_cents / 100.0}€" \
     " - 1 Snack = #{vending_machine.snack_price_cents / 100.0}€" \
