@@ -12,8 +12,12 @@ while url != ""
   url = gets.chomp # Get URL from user (full url like 'http://www.google.fr')
 
   # Fetch page content and display it
-  content = browser.fetch_content(url)
-  puts content
+  if url =~ /http/
+    content = browser.fetch_content(url)
+  else
+    content = "That is not a webpage! (make sure you include the http:// or https://)"
+  end
+  puts content unless url == ""
   puts "\n--------------------\n"
 end
 
