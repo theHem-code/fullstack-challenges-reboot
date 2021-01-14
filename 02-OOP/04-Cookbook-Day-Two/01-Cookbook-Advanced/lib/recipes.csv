@@ -1,0 +1,7 @@
+name,description,rating,prep_time,done
+pizza,ham and cheese,4,30 min,false
+burger,tasty,3,40 min,false
+Pear and Gorgonzola Cheese Pizza,Here's an appetizer that's exciting and unique! Fresh pears and Gorgonzola cheese star as unlikely cohorts in this wildly delicious flavor extravaganza!,4.58,10 mins,true
+Bread Machine Pizza Dough,"This is a great bread machine pizza dough. It is quick, easy, and yummy. You can add any spices to increase the flavor, but I like to add basil and rosemary.",4.74,10 mins,false
+Mushroom Veggie Burger,"Mushrooms and shredded Parmesan cheese add a meaty flavor to these juicy veggie burgers. Serve just like regular hamburgers, on fresh buns with your favorite toppings.",4.73,15 mins,false
+burger,tasty,4,20 min,false
