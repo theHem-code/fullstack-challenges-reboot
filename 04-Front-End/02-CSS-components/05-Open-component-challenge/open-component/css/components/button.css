@@ -1,0 +1,16 @@
+.button {
+  text-decoration: none;
+  border: #356dfc 2px solid;
+  padding: 8 40;
+  border-radius: 20px;
+  color: #356dfc;
+}
+
+.button-m {
+  background-color: white;
+  text-decoration: none;
+  border: white 2px solid;
+  padding: 8 40;
+  border-radius: 20px;
+  color: #356dfc;
+}
