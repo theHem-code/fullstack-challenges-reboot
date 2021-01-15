@@ -1,0 +1,54 @@
+.notification {
+  display: flex;
+  padding: 10px 16px;
+  border-bottom: rgb(235, 235, 235) 1px solid;
+  align-items: center;
+  background: white;
+}
+
+
+.notification-content {
+  padding: 0 16px;
+  flex-grow: 1;
+}
+
+.notification p {
+      margin: 0;
+    line-height: 1.4
+}
+
+.notification small {
+  color: #999999;
+    font-weight: bold;
+}
+
+.notification a {
+  text-decoration: none;
+  color: #268BD2;
+}
+
+.notification a:hover {
+  color: #227FC2;
+}
+
+.notification .notification-action {
+    font-size: 14px;
+    opacity: 0;
+    transition: .3s;
+  }
+
+/*>> IMPORTANT: to get the hover only on the nitication class and not on the action class*/
+.notification:hover .notification-action {
+  opacity: 1;
+}
+
+.notification-action a {
+  color: #999999;
+  margin-left: 16px;
+  font-size: 14px;
+  transition: .3s;
+}
+
+.notification-action a:hover {
+    color: #555555;
+}
