@@ -18,6 +18,41 @@
   <body>
 
     <!-- Your responsive signup form -->
+    <h2>Create your account</h2>
+    <div class="conainer">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-3 mt-4">
+          <form action="#">
+            <div class="form-row">
+              <div class="col-6 form-group">
+                <label>First name</label>
+                <input type="text" class="form-control" placeholder="Bob">
+              </div>
+              <div class="col-6 form-group">
+                <label>Last name</label>
+                <input type="text" class="form-control" placeholder="Sponge">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Your email</label>
+              <input type="email" id="email" class="form-control" placeholder="bob@gmail.com">
+            </div>
+            <div class="form-group">
+              <label for="password">Your password</label>
+              <input type="password" id="password" class="form-control" placeholder="•••••">
+            </div>
+            <label for="favorite" class="form-group">How do you know us?</label>
+              <select id="favorite" name="language" class="form-control">
+                <option value="-">-</option>
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value="friend">Friend</option>
+              </select>
+            <input type="submit" value="Sign up" class="btn btn-primary btn-lg btn-block mt-4">
+          </form>
+        </div>
+      </div>
+    </div>
 
 
     <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
