@@ -1,0 +1,28 @@
+.chat {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.chat-header h1 {
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+
+.chat-header i {
+  font-size: 22px;
+}
+
+.chat-header {
+  border-bottom: 1px solid rgb(240,240,240)
+}
+
+.author {
+  text-decoration: none !important;
+}
+
+.chat-sidebar {
+  padding: 16px 0;
+  flex-grow: 1;
+}

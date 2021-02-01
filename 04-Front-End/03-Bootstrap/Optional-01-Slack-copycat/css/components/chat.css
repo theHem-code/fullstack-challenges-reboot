@@ -1,0 +1,84 @@
+.conversation-sidebar {
+  background-color: #4a3a49;
+  color: white;
+  padding: 16px;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.conversation-sidebar h1 {
+    font-size: 24px;
+  }
+
+.channel-header h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.channel {
+  opacity: .5;
+  display: flex;
+  align-items: center;
+}
+
+.channel-active i {
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.chat-section {
+  margin-top: 24px;
+}
+
+.online {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #1FE5BD;
+  margin-top: 2px;
+  margin-right: 8px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+}
+
+.person span {
+    opacity: .5;
+}
+
+.offline {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 2px;
+  margin-right: 8px;
+  opacity: .5;
+}
+
+.channel i {
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

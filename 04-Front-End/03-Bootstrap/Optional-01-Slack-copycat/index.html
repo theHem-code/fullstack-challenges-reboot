@@ -7,6 +7,9 @@
     <title>Slack prototype</title>
     <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
 
+    <!-- Semantic UI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -18,6 +21,130 @@
   <body>
 
     <!-- TODO: Slack copycat markup -->
+    <div class="main-container d-flex">
+      <div class="organisation-sidebar">
+        <h2 class="orga-active">LW</h2>
+        <h2 class="orga">SL</h2>
+      </div>
+      <div class="conversation-sidebar">
+        <h1>Le Wagon</h1>
+        <div class="person">
+          <div class="online"></div>
+          <span>arthur-littum</span>
+        </div>
+        <div class="chat-section">
+          <div class="channel-header">
+            <h3>Channels</h3>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="channel">
+            <span>
+              <i class="fab fa-slack-hash"></i>
+              general
+            </span>
+          </div>
+           <div class="channel">
+            <span>
+              <i class="fab fa-slack-hash"></i>
+              help
+            </span>
+          </div>
+          <div class="channel-active">
+            <span>
+              <i class="fab fa-slack-hash"></i>
+              design
+            </span>
+          </div>
+           <div class="channel">
+            <span>
+              <i class="fas fa-lock"></i>
+              friday-drinks
+            </span>
+          </div>
+            <div class="channel">
+            <span>
+              <i class="fas fa-lock"></i>
+              climbing
+            </span>
+          </div>
+        </div>
+        <div class="chat-section">
+          <div class="channel-header">
+            <h3>Direct Messages</h3>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="person">
+            <div class="online"></div>
+            <span>Matz</span>
+          </div>
+          <div class="person">
+            <div class="online"></div>
+            <span>ATuring</span>
+          </div>
+          <div class="person">
+            <div class="offline"></div>
+            <span>SteveWozniak</span>
+          </div>
+          <div class="person">
+            <div class="offline"></div>
+            <span>Zuckerberg</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat">
+        <div class="chat-header">
+          <h1><i class="fab fa-slack-hash"></i> design</h1>
+        </div>
+      <div class="chat-sidebar">
+        <div class="ui comments">
+          <div class="comment">
+            <a class="avatar">
+              <img src="https://kitt.lewagon.com/placeholder/users/arthur-littm">
+            </a>
+            <div class="content">
+              <a class="author">arthur-littm</a>
+              <div class="text">
+                Hey everyone 👋 We’ve just launched a new Le Wagon UI Kit 🚀 👉 <a href="https://uikit.lewagon.com/">https://uikit.lewagon.com/</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ui comments">
+          <div class="comment">
+            <a class="avatar">
+              <img src="https://kitt.lewagon.com/placeholder/users/cveneziani">
+            </a>
+            <div class="content">
+              <a class="author">cveneziani</a>
+              <div class="text">
+                yay! 🤘
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ui comments">
+          <div class="comment">
+            <a class="avatar">
+              <img src="https://kitt.lewagon.com/placeholder/users/pdunleav">
+            </a>
+            <div class="content">
+              <a class="author">pdunleav</a>
+              <div class="text">
+                That looks great, why don't you add a <code>.card</code> like on dribbble with a cool hover effect? 😎
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="chat-input">
+          <form action="#">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Type your message ...">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
 
     <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
