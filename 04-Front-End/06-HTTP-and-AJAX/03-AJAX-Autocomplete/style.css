@@ -3,11 +3,12 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  color: black;
 }
 
 #container {
   height: 50vh;
-  width: 50vh;
+  width: 800px;
 }
 
 #container input {
@@ -16,4 +17,13 @@ body {
   line-height: 32px;
   font-size: 24px;
   padding: 0 4px;
+}
+
+#results {
+  list-style: none;
+  padding: 0px;
+}
+
+#search {
+  margin-bottom: 20px;
 }
